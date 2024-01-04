@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Just+Another+Hand&family=Ultra&display=swap');
+
+
+
+span{
+    color: crimson;
+}
+
+nav > ul > li{
+    display: inline;
+    margin-right: 20px;
+    text-align: right;
+}
+
+nav li > a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bolder;
+    font-family: 'Handlee', cursive;
+}
+
+.para{
+    font-size: larger;
+    margin: 0 250px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Handlee', cursive;
+}
+
+.nav{
+    margin-top: 40px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.title{
+    margin: 40px;
+    padding: 0;
+    margin-bottom: 15%;
+    color: whitesmoke;
+    font-weight: bolder;
+    /* font-family: 'Ultra', serif; */
+    font-family: 'Handlee', cursive;
+    /* font-family: 'Just Another Hand', cursive; */
+    display: flex;
+}
+
+body{
+    background-image: url('../styles/images/cameraa.png');
+    background-size: cover;
+    background-position: center;
+}
+button{
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: crimson;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 8px;
+    border: none;
+}
+
+.button{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+}
